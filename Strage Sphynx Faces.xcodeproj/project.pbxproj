@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		92388B7C296790B600105621 /* Strage Sphynx Faces StickerPackExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 92388B7B296790B600105621 /* Strage Sphynx Faces StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		92388B80296790B600105621 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 92388B7F296790B600105621 /* Stickers.xcstickers */; };
-		92388B81296790B600105621 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 92388B7F296790B600105621 /* Stickers.xcstickers */; };
+		92388B80296790B600105621 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 92388B7F296790B600105621 /* Stickers.xcstickers */; settings = {ASSET_TAGS = (ccc, ); }; };
+		92388B81296790B600105621 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 92388B7F296790B600105621 /* Stickers.xcstickers */; settings = {ASSET_TAGS = (ccc, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +102,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					ccc,
+				);
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					92388B76296790B600105621 = {
